@@ -8,6 +8,8 @@ Rails.application.configure do
 
   # Do not eager load code on boot.
   config.eager_load = false
+  config.action_mailer.delivery_method = :test
+  # config.action_mailer.default_url_options = { :host => 'https://rubyrspec-tddror5railsudemytest2.c9users.io' }
 
   # Show full error reports.
   config.consider_all_requests_local = true
@@ -27,8 +29,10 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+
   # Store uploaded files on the local file system (see config/storage.yml for options)
   config.active_storage.service = :local
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000}
 
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
