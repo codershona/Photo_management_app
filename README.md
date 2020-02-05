@@ -27,6 +27,12 @@
   * Stripe:
     - rails generate model Payment email:string token:string user_id:integer ;
 
+    * Image Upload:
+      - rails generate scaffold Image name:string picture:string user:references ;
+      - rails g bootstrap:themed Images ;
+      - rails generate uploader Picture ;
+      - 
+
 
 
 ```
