@@ -22,12 +22,13 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Photo Management App</a>
+        <!-- <a class="navbar-brand" href="#">Photo Management App</a> -->
+        <%= link_to "Photo Management APP", root_path, class: "navbar-brand" %>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li><%= link_to "Link1", "/path1"  %></li>
-            <li><%= link_to "Link2", "/path2"  %></li>
-            <li><%= link_to "Link3", "/path3"  %></li>
+            <li> <%= link_to "Image List", images_path %></li>
+            <li><%= link_to "View Image", new_image_path  %></li>
+              <li><%= link_to 'LOG OUT', destroy_user_session_path, method: :delete %></li>
           </ul>
 
           <ul class="nav navbar-right col-md-4">
