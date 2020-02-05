@@ -14,3 +14,5 @@ ActionMailer::Base.smtp_settings = {
 	:enable_starttls_auto => true
 }
 
+# export STRIPE_TEST_SECRET_KEY=
+# export STRIPE_TEST_PUBLISHABLE_KEY=

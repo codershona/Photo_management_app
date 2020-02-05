@@ -24,6 +24,9 @@
 		- rails g devise:views:locale en ;
 		- rails g devise:views:bootstrap_templates ; (delete 5 favicon-links) + Add jquery, twitter/bootstrap in application.js file.
 
+  * Stripe:
+    - rails generate model Payment email:string token:string user_id:integer ;
+
 
 
 ```
