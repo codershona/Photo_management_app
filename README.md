@@ -31,7 +31,7 @@
       - rails generate scaffold Image name:string picture:string user:references ;
       - rails g bootstrap:themed Images ;
       - rails generate uploader Picture ;
-      - 
+      - install here in same working directory of project- sudo apt-get install imagemagick --fix-missing ;
 
 
 
