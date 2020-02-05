@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project: Photo App using rails 5
 
-Things you may want to cover:
+### Builded by Falguni Islam (Software Developer)
 
-* Ruby version
+#### Ready to deploy it in Heroku.
 
-* System dependencies
 
-* Configuration
+*  Migrate Files :
+```
+   - rails generate controller welcome index ;
+   - rails generate devise:install ;
+   -  <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+   - rails g devise:views ;
+   - rails generate devise User ;
+   
+```
