@@ -1,6 +1,6 @@
 # README
 
-## Project: Photo App using rails 5
+# Project: PHOTO MANAGEMENT APP using rails 5
 
 ### Builded by Falguni Islam (Software Developer)
 
