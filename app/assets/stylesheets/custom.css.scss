@@ -22,6 +22,28 @@
   padding-top: 5px;
 }
 
+.navbar-default .navbar-brand {
+ color: #f0e2e2;
+ }
+ .navbar-default .navbar-nav > li > a {
+   color: #ecdede;
+}
+.user-name a {
+    color: #d3f009 !important;
+    font-weight: bold;
+    word-spacing: normal;
+}
+
+.navbar-default {
+    background-color: #630b84;
+border-color: #e7e7e7;
+bottom: 30px;
+width: 1528px;
+padding-top: 10px;
+padding-bottom: 10px;
+right: 30px;
+}
+
 .nav.navbar-nav {
   .navbar-link {
     border-radius: 5px;

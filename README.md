@@ -23,4 +23,3 @@
 		- rails g bootstrap:layout application ;
 		- rails g devise:views:locale en ;
 		- rails g devise:views:bootstrap_templates ; (delete 5 favicon-links) + Add jquery, twitter/bootstrap in application.js file.
-
