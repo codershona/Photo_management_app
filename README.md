@@ -24,15 +24,3 @@
 		- rails g devise:views:locale en ;
 		- rails g devise:views:bootstrap_templates ; (delete 5 favicon-links) + Add jquery, twitter/bootstrap in application.js file.
 
-  * Stripe:
-    - rails generate model Payment email:string token:string user_id:integer ;
-
-    * Image Upload:
-      - rails generate scaffold Image name:string picture:string user:references ;
-      - rails g bootstrap:themed Images ;
-      - rails generate uploader Picture ;
-      - install here in same working directory of project- sudo apt-get install imagemagick --fix-missing ;
-
-
-
-```
