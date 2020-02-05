@@ -16,5 +16,14 @@
 
    - rails g devise:views ;
    - rails generate devise User ;
+
+   * Perfect twitter botstrap views setup :
    
+		- rails generate bootstrap:install static ;
+		- rails g bootstrap:layout application ;
+		- rails g devise:views:locale en ;
+		- rails g devise:views:bootstrap_templates ;
+
+
+
 ```
