@@ -2,7 +2,8 @@
 
 # Project: PHOTO MANAGEMENT APP using rails 5
 
-### Builded by Falguni Islam (Software Developer)
+#### Project Can be found in here :
+ **[Live version](https://frozen-waters-44049.herokuapp.com/)**
 
 #### Ready to deploy it in Heroku.
 
@@ -31,5 +32,47 @@
       - rails generate scaffold Image name:string picture:string user:references ;
       - rails g bootstrap:themed Images ;
       - rails generate uploader Picture ;
-      - install here in same working directory of project- sudo apt-get install imagemagick --fix-missing ;
+      - install here in same working directory of project- sudo apt-get install imagemagick --fix-missing 
+```
+   
+   
+   # HEROKU DEPLOYMENT:
+   
+   ```
+       
+	- heroku login ;
+	- heroku create ;
+	- git remote ;
+
+	* Add this in Gemfile:
+	group :development, :test do
+	 gem 'sqlite3'
+	end
+
+	group :production do
+	  gem 'pg'
+	end 
+	- bundle install --without production ;
+	- git status / git add . / git commit -m 'updates for heroku deployment' ;
+	- git push/ git push origin master ;
+	- git push heroku master ;
+	* If you run into an error on the next command stating that you need to
+	 use Bundler 2 or greater with this lockfile, you’ll need to run:
+	heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
+
+	and then run the git push heroku master command again.
+
+
+
+	- heroku run rails db:migrate ;
+
+	- heroku open 
+
+
+
+
+   
+   
+   
+   ```
 
