@@ -7,7 +7,7 @@
  
  <p align="center">
 	
-<img src="https://user-images.githubusercontent.com/57604500/121789954-cdbda900-cbda-11eb-805b-99e719821c62.png**" width=1000 height=550>
+<img src="https://user-images.githubusercontent.com/57604500/121789954-cdbda900-cbda-11eb-805b-99e719821c62.png" width=1000 height=550>
 <br />
 <h3 align="center">PHOTO MANAGEMENT APP</h3>
 </p>
